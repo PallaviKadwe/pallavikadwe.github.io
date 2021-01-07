@@ -10,8 +10,8 @@ img{
     display:grid;
     grid-template-rows: 0.75fr 5fr;
     grid-template-columns:1fr 1fr 1fr 1fr 2fr;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
   }
 
   .child{
@@ -73,4 +73,36 @@ img{
     bottom: 30px;
     left: 100px;
     color:darkslategrey;
+  }
+
+  .about{
+    transform: translateY(50%);
+    text-align: left;
+    width: 50%;
+    transform: translateX(50%);
+    font-size: large;
+  }
+
+  .experience{
+    transform: translateY(50%);
+    width: 75%;
+    transform: translateX(20%);
+    font-size: large;
+    text-align: left;
+  }
+
+  .skills{
+    transform: translateY(50%);
+    width: 75%;
+    transform: translateX(50%);
+    font-size: large;
+    text-align: left;
+  }
+
+  .certifications{
+    transform: translateY(50%);
+    width: 75%;
+    transform: translateX(45%);
+    font-size: large;
+    text-align: left;
   }
