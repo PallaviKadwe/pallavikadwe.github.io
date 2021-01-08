@@ -10,18 +10,23 @@ img{
     display:grid;
     grid-template-rows: 0.75fr 5fr;
     grid-template-columns:1fr 1fr 1fr 1fr 2fr;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
   }
 
   .child{
     /*border: 1px solid black;*/
   }
 
+  .home{
+    text-align: center;
+    font-family: Apple Chancery, cursive, Verdana, sans-serif;
+  }
+
   .centerText{
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 30%;
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -62,11 +67,11 @@ img{
   }
 
   .child-six{
-    grid-row: 2/ span 2;
+    grid-row: 2/ span 1;
     grid-column: 1 / span 4;
-    background-color:lightslategrey;
-
+    background-color: silver;
   }
+
 
   .bottom-right{
     position: absolute;
@@ -81,6 +86,7 @@ img{
     width: 50%;
     transform: translateX(50%);
     font-size: large;
+    margin-top: 10%;
   }
 
   .experience{
@@ -89,6 +95,7 @@ img{
     transform: translateX(20%);
     font-size: large;
     text-align: left;
+    margin-top: 5%;
   }
 
   .skills{
@@ -97,6 +104,7 @@ img{
     transform: translateX(50%);
     font-size: large;
     text-align: left;
+    margin-top: 10%;
   }
 
   .certifications{
@@ -105,4 +113,5 @@ img{
     transform: translateX(45%);
     font-size: large;
     text-align: left;
+    margin-top: 10%;
   }
