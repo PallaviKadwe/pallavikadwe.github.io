@@ -15,7 +15,7 @@ img{
   }
 
   .child{
-    /*border: 1px solid black;*/
+    border: 1px solid black;
   }
 
   .home{
@@ -106,12 +106,3 @@ img{
     text-align: left;
     margin-top: 3%;
   }
-/*
-  .certifications{
-    transform: translateY(50%);
-    width: 75%;
-    transform: translateX(45%);
-    font-size: large;
-    text-align: left;
-    margin-top: 10%;
-  }*/
